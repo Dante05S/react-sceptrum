@@ -1,0 +1,27 @@
+.marker{
+    position: absolute;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 8px 16px 0px;
+    top: -19px;
+    right: -19px;
+    width: 37px;
+    height: 37px;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url("https://storage.googleapis.com/bucket-adomi-dev/brands/0b24f3d8-4d80-48cc-bbcd-482c89e1ac35/logo_100f82b6-b4a4-4f64-b672-449614329b41.png");
+    background-size: cover;
+    animation-name: none;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+}
+
+
+@keyframes bounce {
+    0%   { transform: scale(1,1)      translateY(0); }
+    10%  { transform: scale(1.1,.9)   translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-100px); }
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    57%  { transform: scale(1,1)      translateY(-7px); }
+    64%  { transform: scale(1,1)      translateY(0); }
+    100% { transform: scale(1,1)      translateY(0); }
+}

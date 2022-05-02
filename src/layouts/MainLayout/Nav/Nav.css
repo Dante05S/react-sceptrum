@@ -1,0 +1,32 @@
+.nav {
+  background: #000000;
+  color: #fbb714;
+  padding: 15px;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-logo {
+  width: 75px;
+  height: 55px;
+}
+
+.container-logo a img {
+  width: 100%;
+  height: 100%;
+}
