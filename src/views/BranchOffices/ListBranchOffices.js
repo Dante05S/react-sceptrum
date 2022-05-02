@@ -44,7 +44,7 @@ export const ListBranchOffices = ({ branchOffices, obtainMarker }) => {
               >
                 <div className="branch-office">
                   <div className="logo2">
-                    <img src={item.logo}></img>
+                    <img src={item.logo} alt={item.name}></img>
                   </div>
                   <div className="info-item">
                     <p className="name-branch">{item.name}</p>

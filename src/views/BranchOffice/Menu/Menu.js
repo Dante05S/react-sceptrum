@@ -17,7 +17,10 @@ export const Menu = ({ categories }) => {
                   <div key={stock.product.id} className="product">
                     <div className="card-product">
                       <div className="img-product">
-                        <img src={stock.product.primary_image} />
+                        <img
+                          src={stock.product.primary_image}
+                          alt={stock.product.name}
+                        />
                       </div>
                       <div className="details">
                         <p className="name-product">{stock.product.name}</p>

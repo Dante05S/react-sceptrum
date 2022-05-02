@@ -1,5 +1,4 @@
 import "./App.css";
-import env from "react-dotenv";
 import { useEffect } from "react";
 import routes from "./routes";
 import { useRoutes } from "react-router-dom";

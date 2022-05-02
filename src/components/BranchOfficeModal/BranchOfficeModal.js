@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./BranchOfficeModal.css";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
@@ -28,7 +28,7 @@ export const BranchOfficeModal = ({ toogleModal, branchOffice }) => {
               </p>
             </div>
             <div className="logo">
-              <img src={branchOffice?.logo}></img>
+              <img src={branchOffice?.logo} alt={branchOffice.name}></img>
             </div>
             <div className="name">
               <h4>{branchOffice?.name}</h4>

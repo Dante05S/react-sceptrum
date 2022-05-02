@@ -67,7 +67,7 @@ export const BranchOffice = () => {
   useEffect(() => {
     fetchDataBranchOffice();
     fetchDataCategories();
-  }, []);
+  });
 
   return (
     <div className="BranchOffice">
@@ -75,7 +75,7 @@ export const BranchOffice = () => {
         <div className="top">
           <div className="brand-info">
             <div className="icon">
-              <img src={branchOffice.logo}></img>
+              <img src={branchOffice.logo} alt={branchOffice.name}></img>
             </div>
             <div>
               <h3>{branchOffice.name}</h3>

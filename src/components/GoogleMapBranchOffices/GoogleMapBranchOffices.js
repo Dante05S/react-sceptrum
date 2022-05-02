@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./GoogleMapBranchOffices.css";
 import BranchOfficeService from "../../services/BranchOfficeService";
 import { GoogleMap, Marker, OverlayView } from "@react-google-maps/api";
