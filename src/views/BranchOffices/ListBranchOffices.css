@@ -1,5 +1,6 @@
 .ListBranchOffices{
-    position: fixed; 
+    position: fixed;
+    top:0; 
     background-color: #ffffff;
     transition: right 0.5s ease;
     width: 100%;

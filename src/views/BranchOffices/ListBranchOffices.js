@@ -39,6 +39,7 @@ export const ListBranchOffices = ({ branchOffices, obtainMarker }) => {
                 onClick={() => {
                   obtainMarker(item);
                   setShow(false);
+                  document.body.className = "";
                 }}
                 className="item-list"
               >
