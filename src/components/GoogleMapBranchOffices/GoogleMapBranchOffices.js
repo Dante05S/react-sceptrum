@@ -9,6 +9,7 @@ export const GoogleMapBranchOffices = ({ markers, center, idBounce }) => {
   const options = {
     zoom: 17,
     disableDefaultUI: true,
+    gestureHandling: "cooperative",
     clickableIcons: false,
     zoomControl: true,
     styles: [
